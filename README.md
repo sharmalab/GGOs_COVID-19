@@ -1,2 +1,2 @@
-# LungCT-2019
-This repository will be used for the LungCT project. 
+# GGO Detection
+GGO detection and Classification using Point Cloud, PointNet++ and other AI/ML approaches
