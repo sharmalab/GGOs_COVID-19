@@ -1,0 +1,3 @@
+/home/ms/Desktop/Point_Cloud_Monjoy/4_prepare_data_for_pointNet/pointcloudToTXT-master/build/CMakeFiles/edit_cache.dir
+/home/ms/Desktop/Point_Cloud_Monjoy/4_prepare_data_for_pointNet/pointcloudToTXT-master/build/CMakeFiles/rebuild_cache.dir
+/home/ms/Desktop/Point_Cloud_Monjoy/4_prepare_data_for_pointNet/pointcloudToTXT-master/build/CMakeFiles/pointcloudToTXT.dir
