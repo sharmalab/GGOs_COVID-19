@@ -1,0 +1,24 @@
+https://github.com/danielTobon43/pointcloudToTXT
+
+
+
+Compilation
+Set "YOUR OWN" PCL Build DIR in CMakeList.txt e.g: /opt/pcl-1.8.1/build and save it.
+Create a "build" folder
+in the main folder:
+
+- cd /build  
+- cmake ../src/
+- make
+
+#### Testing Purpose
+
+cd /build
+./pointcloudToTXT <pcd file> -o <output dir>
+./pointcloudToTXT <ply file> -o <output dir>
+
+
+Example, First activate conda using "conda activate 3d". Then go to folder build and enter below command started with ./point...
+cd /build
+
+./pointcloudToTXT /home/ms/Desktop/Point_Cloud_Monjoy/data_19Jan2021/4_downsampled_pcd/study_0255.pcd -o /home/ms/Desktop/Point_Cloud_Monjoy/data_19Jan2021/5_text_PointCloud/
