@@ -19,8 +19,10 @@ This code has been used for generating binary masks from original images. ```dat
 This code has been used for getting convex hull, convex points. The input is binary images. ```data_path``` is a path of dataset. The results will be saved at ```save_path```. 
 
 ## ```2_Original_lung_from_binary.py``` third script of this pipeline
-This code can be used to extract the only lung from the original images and binary mask (resulted from step-1 code). ```original_image_path``` is a original image path. ```mask_image_path``` is a path of masks. All the results will be saved at ```save_path```. 
+This code can be used to extract the only lung from the original images and binary mask (resulted from step-1 code). ```original_image_path``` is an original image path. ```mask_image_path``` is a path of masks. All the results will be saved at ```save_path```. 
 
+### 2a_remove_white_regions_.py fourth script of this pipeline
+This code removes white non-GGO regions from the original segmented images. ```original_image_path``` is an original image path. ```original_mask_path``` is a path of masks. All the results will be saved at ```save_path```. 
 
 # Point Cloud
 
