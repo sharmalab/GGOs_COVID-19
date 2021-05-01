@@ -21,8 +21,11 @@ This code has been used for getting convex hull, convex points. The input is bin
 ## ```2_Original_lung_from_binary.py``` third script of this pipeline
 This code can be used to extract the only lung from the original images and binary mask (resulted from step-1 code). ```original_image_path``` is an original image path. ```mask_image_path``` is a path of masks. All the results will be saved at ```save_path```. 
 
-### 2a_remove_white_regions_.py fourth script of this pipeline
+## 2a_remove_white_regions_.py fourth script of this pipeline
 This code removes white non-GGO regions from the original segmented images. ```original_image_path``` is an original image path. ```original_mask_path``` is a path of masks. All the results will be saved at ```save_path```. 
+
+## ```3_K-means_final.py``` fifth script of this pipeline
+```3_K-means_final.py``` is used to segment GGOs. ```original_image_path ``` is the original image path. ```OrgMask_path``` is the mask path. All the results will be saved at ```save_path```. 
 
 # Point Cloud
 
