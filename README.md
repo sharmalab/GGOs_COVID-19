@@ -1,4 +1,4 @@
-# Lung and GGOs Segmentation, Point Cloud and PointNet++
+# AI-DRIVEN QUANTIFICATION OF GROUND GLASS OPACITIES IN 3D COMPUTED TOMOGRAPHY IMAGES OF LUNGS OF COVID-19 PATIENTS
 
 [![GitHub stars](https://img.shields.io/github/stars/sharmalab/GGOs_COVID-19)](https://github.com/sharmalab/GGOs_COVID-19/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/sharmalab/GGOs_COVID-19)](https://github.com/sharmalab/GGOs_COVID-19/issues)
@@ -7,4 +7,4 @@
 
 
 
-GGO detection and Classification using Point Cloud, PointNet++ and other AI/ML approaches
+
