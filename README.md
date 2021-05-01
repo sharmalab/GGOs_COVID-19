@@ -5,6 +5,15 @@
 [![GitHub forks](https://img.shields.io/github/forks/sharmalab/GGOs_COVID-19)](https://github.com/sharmalab/GGOs_COVID-19/network)
 ![GitHub License](https://img.shields.io/github/license/sharmalab/GGOs_COVID-19)
 
+# Data
+We used "**MosMedData: Chest CT Scans with COVID-19 Related Findings**" (https://mosmed.ai/datasets/covid19_1110). Data needs to download before using this pipeline. The size of the data is 33 GB
 
 
+# Lung and GGOs Segmentation
+
+
+
+# Point Cloud
+
+# PointNet++
 
