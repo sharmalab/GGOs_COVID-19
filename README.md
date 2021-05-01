@@ -15,6 +15,13 @@ This is the first step of this pipeline. All the relevant codes have been stored
 ## ```1_original_to_binary.py``` first script of this pipeline. 
 This code has been used for generating binary masks from original images. ```data_path``` is the original data path.  The output of this code will be saved at ```internal_path```.  
 
+## ```1a_convex_hull_CT_monjoy.py``` second script of this pipeline
+This code has been used for getting convex hull, convex points. The input is binary images. ```data_path``` is a path of dataset. The results will be saved at ```save_path```. 
+
+## ```2_Original_lung_from_binary.py``` third script of this pipeline
+This code can be used to extract the only lung from the original images and binary mask (resulted from step-1 code). ```original_image_path``` is a original image path. ```mask_image_path``` is a path of masks. All the results will be saved at ```save_path```. 
+
+
 # Point Cloud
 
 # PointNet++
