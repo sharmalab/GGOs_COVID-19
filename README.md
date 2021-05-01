@@ -6,11 +6,14 @@
 ![GitHub License](https://img.shields.io/github/license/sharmalab/GGOs_COVID-19)
 
 # Data
-We used "**MosMedData: Chest CT Scans with COVID-19 Related Findings**" (https://mosmed.ai/datasets/covid19_1110). Data needs to download before using this pipeline. The size of the data is 33 GB
+We used "**MosMedData: Chest CT Scans with COVID-19 Related Findings**" (https://mosmed.ai/datasets/covid19_1110). Data needs to download before using this pipeline. The size of the data is 33 GB. There images are in .nii format. You need to convert them into ```.png``` for using this pipeline. You can use ```nii_to_pngs_converter.py``` for this purpose. 
+
 
 
 # Lung and GGOs Segmentation
+This is the first step of this pipeline. All the relevant codes have been stored inside the folder "**Lung_GGO_segmentation**"
 
+## ```1_original_to_binary.py``` first script of this pipeline. 
 
 
 # Point Cloud
