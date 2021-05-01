@@ -6,7 +6,7 @@
 ![GitHub License](https://img.shields.io/github/license/sharmalab/GGOs_COVID-19)
 
 # Data
-We used "**MosMedData: Chest CT Scans with COVID-19 Related Findings**" (https://mosmed.ai/datasets/covid19_1110). Data needs to download before using this pipeline. The size of the data is 33 GB. There images are in .nii format. You need to convert them into ```.png``` for using this pipeline. You can use ```nii_to_pngs_converter.py``` for this purpose. 
+We used "**MosMedData: Chest CT Scans with COVID-19 Related Findings**" (https://mosmed.ai/datasets/covid19_1110). Data needs to download before using this pipeline. The size of the data is 33 GB. All the data is in ```.nii``` format. Hence, you need to convert them into ```.png``` for using this pipeline. You can use ```nii_to_pngs_converter.py``` for this purpose. 
 
 
 
