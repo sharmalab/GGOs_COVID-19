@@ -51,5 +51,5 @@ For ```.ply``` files
 
 
 # PointNet++
-```PointNet++``` related scripts are saved inside ```PointNet++``` folder. For model training run ```train.py``` and for testing run ```test.py```.
+```PointNet++``` related scripts are saved inside ```PointNet++``` folder. For model training run ```train.py``` and for testing run ```test.py```. MOre details on ```PointNet++``` can be found at ```https://github.com/charlesq34/pointnet2```.
 
