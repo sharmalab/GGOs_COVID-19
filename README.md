@@ -50,8 +50,6 @@ For ```.ply``` files
 ```./pointcloudToTXT <ply file> -o <output dir>```
 
 
-
-
-
 # PointNet++
+```PointNet++``` related scripts are saved inside ```PointNet++``` folder. For model training run ```train.py``` and for testing run ```test.py```.
 
