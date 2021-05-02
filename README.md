@@ -40,6 +40,14 @@ To downsample the number of points of the point cloud, you can use ```downsample
 ## ```3_Ply_to_pcd_monjoy``` fourth script of this pipeline
 This script is used for converting from ```.ply``` format to ```.pcd``` format. ```.ply``` and ```.pcd``` both files represent point clouds. For our easy analysis, we converted all ```.ply``` to ```.pcd```. The script is stored inside the folder ```3_Ply_to_pcd_monjoy```. 
 
+## Convert .pcd to ```.txt``` format fifth script of this pipeline
+For the ```PointNet++``` data needs to be converted ```.txt``` format. Hence, we used a script inside ```4_prepare_data_for_pointNet/pointcloudToTXT-master/build/``` folder. 
+Use the below command for this purpose.
+``` cd /build ```
+For ```.pcd``` files
+```./pointcloudToTXT <pcd file> -o <output dir>```
+For ```.ply``` files
+```./pointcloudToTXT <ply file> -o <output dir>```
 
 
 
