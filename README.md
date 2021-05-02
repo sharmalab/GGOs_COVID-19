@@ -28,6 +28,22 @@ This code removes white non-GGO regions from the original segmented images. ```o
 ```3_K-means_final.py``` is used to segment GGOs. ```original_image_path ``` is the original image path. ```OrgMask_path``` is the mask path. All the results will be saved at ```save_path```. 
 
 # Point Cloud
+## ```2a_convert_monjoy.py``` first script of this pipeline
+To convert stack of images into ```point cloud``` use ```2a_convert_monjoy.py```. The code is stored inside the folder ```1_Convert_images_to_point_cloud```. In our study, we used sixteen consecutive images. You can use as many images as you want. There are no restrictions. Set image path ```image_path``` and save results at ```save_path```. All the final files will be saved in ```.ply``` format. 
+
+## ```visualize_pcd_file.py``` second script of this pipeline
+This script can be used to visualize point clouds. 
+
+## ```downsample_main_code_24dec.py``` third script of this pipeline
+To downsample the number of points of the point cloud, you can use ```downsample_main_code_24dec.py```. The code is stored inside the folder ```2_Downsample_pointCloud```.  ```ply_file_path``` denotes ```.ply``` file path and ```downsampled_files_save_path``` represents the path, where downsampled files will be saved. In our study, we downsampled the number of points from 800K to 2480 points. 
+
+## ```3_Ply_to_pcd_monjoy``` fourth script of this pipeline
+This script is used for converting from ```.ply``` format to ```.pcd``` format. ```.ply``` and ```.pcd``` both files represent point clouds. For our easy analysis, we converted all ```.ply``` to ```.pcd```. The script is stored inside the folder ```3_Ply_to_pcd_monjoy```. 
+
+
+
+
+
 
 # PointNet++
 
