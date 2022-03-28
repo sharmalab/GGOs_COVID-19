@@ -1,4 +1,4 @@
-# AI-DRIVEN QUANTIFICATION OF GROUND GLASS OPACITIES IN 3D COMPUTED TOMOGRAPHY IMAGES OF LUNGS OF COVID-19 PATIENTS
+# AI-driven quantification of ground glass opacities in lungs of COVID-19 patients using 3D computed tomography imaging [Paper Link]( https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263916)
 
 [![GitHub stars](https://img.shields.io/github/stars/sharmalab/GGOs_COVID-19)](https://github.com/sharmalab/GGOs_COVID-19/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/sharmalab/GGOs_COVID-19)](https://github.com/sharmalab/GGOs_COVID-19/issues)
